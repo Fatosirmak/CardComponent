@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.miniContainer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    
+}
+
+.artistlist{
+    width:400px;
+    height:550px;
+    background-color:#F9FAFC;
+    padding: 15px 15px 15px 15px;
+}
+
+.topInfo h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #273444;
+}
+.information{
+    font-size: 16px;
+    line-height: 23px;  
+}
+
+.artistnameList{
+    padding: 15px 15px;
+}
+
+.name {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #E5E9F2;
+}
+
+.name p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #3C4858;
+}
+
+
+.name h3{
+    color:#273444;
+}
+
+.name:first-child, .name:last-child {
+    border-bottom: none;
+}
